@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.5)
+INCLUDE_DIRECTORIES("/home/bow/all/program/test/cmake/final/include/hello")
+LINK_DIRECTORIES("/home/bow/all/program/test/cmake/final/lib/")
+TARGET_LINK_LIBRARIES(main hello)
+ADD_EXECUTABLE(main main.c)

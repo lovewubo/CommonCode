@@ -1,0 +1,4 @@
+/home/bow/all/program/test/cmake/final/lib/libhello.so.1.2
+/home/bow/all/program/test/cmake/final/lib/libhello.so.1
+/home/bow/all/program/test/cmake/final/lib/libhello.so
+/home/bow/all/program/test/cmake/final/include/hello/hello.h

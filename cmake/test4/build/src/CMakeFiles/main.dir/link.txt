@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/main.dir/main.o  -o main  -L/home/bow/all/program/test/cmake/final/lib -rdynamic 

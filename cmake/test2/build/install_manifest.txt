@@ -1,0 +1,4 @@
+/home/bow/all/program/test/cmake/final/share/doc/cmake/t2/COPYRIGHT
+/home/bow/all/program/test/cmake/final/share/doc/cmake/t2/README
+/home/bow/all/program/test/cmake/final/bin/runhello.sh
+/home/bow/all/program/test/cmake/final/share/doc/cmake/t2/hello.txt

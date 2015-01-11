@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/hello.dir/main.c.o  -o hello  -L/home/bow/all/program/test/cmake/final/lib -rdynamic ../../lib/libhello.so -Wl,-rpath,/home/bow/all/program/test/cmake/test6/lib:/home/bow/all/program/test/cmake/final/lib 

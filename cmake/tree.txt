@@ -1,0 +1,347 @@
+.
+├── final
+│   ├── bin
+│   │   └── runhello.sh
+│   ├── include
+│   │   └── hello
+│   │       └── hello.h
+│   ├── lib
+│   │   ├── libhello.so -> libhello.so.1
+│   │   ├── libhello.so.1 -> libhello.so.1.2
+│   │   └── libhello.so.1.2
+│   └── share
+│       └── doc
+│           └── cmake
+│               └── t2
+│                   ├── COPYRIGHT
+│                   ├── hello.txt
+│                   └── README
+├── src
+│   └── main.c
+├── test1
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 2.8.12.2
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   └── CMakeCCompilerId.c
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       └── CMakeCXXCompilerId.cpp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeOutput.log
+│   │   ├── CMakeTmp
+│   │   ├── hello.dir
+│   │   │   ├── build.make
+│   │   │   ├── C.includecache
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.internal
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── main.c.o
+│   │   │   └── progress.make
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── progress.marks
+│   │   └── TargetDirectories.txt
+│   ├── cmake_install.cmake
+│   ├── CMakeLists.txt
+│   ├── hello
+│   ├── main.c
+│   └── Makefile
+├── test2
+│   ├── build
+│   │   ├── bin
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   ├── hello.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── C.includecache
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.internal
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── main.o
+│   │   │   │   │   └── progress.make
+│   │   │   │   └── progress.marks
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── hello
+│   │   │   └── Makefile
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 2.8.12.2
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── CMakeCCompilerId.c
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       └── CMakeCXXCompilerId.cpp
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile2
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── progress.marks
+│   │   │   └── TargetDirectories.txt
+│   │   ├── cmake_install.cmake
+│   │   ├── install_manifest.txt
+│   │   ├── Makefile
+│   │   └── src
+│   │       ├── CMakeFiles
+│   │       │   ├── CMakeDirectoryInformation.cmake
+│   │       │   ├── hello.dir
+│   │       │   │   ├── build.make
+│   │       │   │   ├── C.includecache
+│   │       │   │   ├── cmake_clean.cmake
+│   │       │   │   ├── DependInfo.cmake
+│   │       │   │   ├── depend.internal
+│   │       │   │   ├── depend.make
+│   │       │   │   ├── flags.make
+│   │       │   │   ├── link.txt
+│   │       │   │   ├── main.o
+│   │       │   │   └── progress.make
+│   │       │   └── progress.marks
+│   │       ├── cmake_install.cmake
+│   │       └── Makefile
+│   ├── CMakeLists.txt
+│   ├── CMakeLists.txt~
+│   ├── COPYRIGHT
+│   ├── doc
+│   │   └── hello.txt
+│   ├── README
+│   ├── runhello.sh
+│   └── src
+│       ├── CMakeLists.txt
+│       ├── CMakeLists.txt~
+│       └── main.c
+├── test3
+│   ├── build
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 2.8.12.2
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── CMakeCCompilerId.c
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       └── CMakeCXXCompilerId.cpp
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile2
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── progress.marks
+│   │   │   └── TargetDirectories.txt
+│   │   ├── cmake_install.cmake
+│   │   ├── install_manifest.txt
+│   │   ├── lib
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   ├── hello.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── C.includecache
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.internal
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── hello.o
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   └── progress.make
+│   │   │   │   └── progress.marks
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── libhello.so -> libhello.so.1
+│   │   │   ├── libhello.so.1 -> libhello.so.1.2
+│   │   │   ├── libhello.so.1.2
+│   │   │   └── Makefile
+│   │   └── Makefile
+│   ├── CMakeLists.txt
+│   ├── CMakeLists.txt~
+│   └── lib
+│       ├── CMakeLists.txt
+│       ├── CMakeLists.txt~
+│       ├── hello.c
+│       └── hello.h
+├── test4
+│   ├── build
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 2.8.12.2
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── CMakeCCompilerId.c
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       └── CMakeCXXCompilerId.cpp
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile2
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Progress
+│   │   │   │   └── count.txt
+│   │   │   ├── progress.marks
+│   │   │   └── TargetDirectories.txt
+│   │   ├── cmake_install.cmake
+│   │   ├── Makefile
+│   │   └── src
+│   │       ├── CMakeFiles
+│   │       │   ├── CMakeDirectoryInformation.cmake
+│   │       │   ├── main.dir
+│   │       │   │   ├── build.make
+│   │       │   │   ├── C.includecache
+│   │       │   │   ├── cmake_clean.cmake
+│   │       │   │   ├── DependInfo.cmake
+│   │       │   │   ├── depend.internal
+│   │       │   │   ├── depend.make
+│   │       │   │   ├── flags.make
+│   │       │   │   ├── link.txt
+│   │       │   │   ├── main.o
+│   │       │   │   └── progress.make
+│   │       │   └── progress.marks
+│   │       ├── cmake_install.cmake
+│   │       └── Makefile
+│   ├── CMakeLists.txt
+│   ├── CMakeLists.txt~
+│   └── src
+│       ├── CMakeLists.txt
+│       ├── CMakeLists.txt~
+│       └── main.c
+├── test5
+│   ├── build
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 2.8.12.2
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── CMakeCCompilerId.c
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       └── CMakeCXXCompilerId.cpp
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile2
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Progress
+│   │   │   │   ├── 1
+│   │   │   │   └── count.txt
+│   │   │   ├── progress.marks
+│   │   │   └── TargetDirectories.txt
+│   │   ├── cmake_install.cmake
+│   │   ├── Makefile
+│   │   └── src
+│   │       ├── CMakeFiles
+│   │       │   ├── CMakeDirectoryInformation.cmake
+│   │       │   ├── curltest.dir
+│   │       │   │   ├── build.make
+│   │       │   │   ├── C.includecache
+│   │       │   │   ├── cmake_clean.cmake
+│   │       │   │   ├── DependInfo.cmake
+│   │       │   │   ├── depend.internal
+│   │       │   │   ├── depend.make
+│   │       │   │   ├── flags.make
+│   │       │   │   ├── link.txt
+│   │       │   │   └── progress.make
+│   │       │   └── progress.marks
+│   │       ├── cmake_install.cmake
+│   │       └── Makefile
+│   ├── CMakeLists.txt
+│   ├── CMakeLists.txt~
+│   ├── src
+│   │   ├── CMakeLists.txt
+│   │   ├── CMakeLists.txt~
+│   │   └── main.c
+│   └── tmp
+├── test6
+│   ├── build
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 2.8.12.2
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── CMakeCCompilerId.c
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       └── CMakeCXXCompilerId.cpp
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile2
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── progress.marks
+│   │   │   └── TargetDirectories.txt
+│   │   ├── cmake_install.cmake
+│   │   ├── Makefile
+│   │   └── src
+│   │       ├── CMakeFiles
+│   │       │   ├── CMakeDirectoryInformation.cmake
+│   │       │   ├── hello.dir
+│   │       │   │   ├── build.make
+│   │       │   │   ├── C.includecache
+│   │       │   │   ├── cmake_clean.cmake
+│   │       │   │   ├── DependInfo.cmake
+│   │       │   │   ├── depend.internal
+│   │       │   │   ├── depend.make
+│   │       │   │   ├── flags.make
+│   │       │   │   ├── link.txt
+│   │       │   │   ├── main.c.o
+│   │       │   │   └── progress.make
+│   │       │   └── progress.marks
+│   │       ├── cmake_install.cmake
+│   │       ├── hello
+│   │       └── Makefile
+│   ├── cmake
+│   │   ├── FindHELLO.cmake
+│   │   └── FindHELLO.cmake~
+│   ├── CMakeLists.txt
+│   ├── CMakeLists.txt~
+│   ├── lib
+│   │   └── libhello.so
+│   └── src
+│       ├── CMakeLists.txt
+│       ├── CMakeLists.txt~
+│       └── main.c
+└── tree.txt
+
+81 directories, 263 files
